@@ -751,6 +751,8 @@ server.on("error", (error) => {
   throw error;
 });
 
-server.listen(PORT, HOST, () => {
-  console.log(`James PT booking app running at http://${HOST}:${PORT}`);
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`James PT booking app running on port ${PORT}`);
 });
