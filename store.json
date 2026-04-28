@@ -1,0 +1,120 @@
+{
+  "trainer": {
+    "name": "James",
+    "businessName": "James PT",
+    "location": "Private studio",
+    "email": "james@example.com",
+    "phone": "07123 456789"
+  },
+  "slots": [
+    {
+      "id": "7c8672dd-757e-4a83-ade1-ef0fe32b269b",
+      "date": "2026-04-29",
+      "time": "12:15",
+      "duration": 60,
+      "type": "Mobility",
+      "location": "Private studio",
+      "status": "booked"
+    },
+    {
+      "id": "6c4a894e-e529-4fba-a887-1bae629440f8",
+      "date": "2026-04-29",
+      "time": "17:30",
+      "duration": 60,
+      "type": "Strength",
+      "location": "Private studio",
+      "status": "booked"
+    },
+    {
+      "id": "8a547d08-bc5c-409a-8a06-8fe25ba8cef9",
+      "date": "2026-04-29",
+      "time": "18:30",
+      "duration": 60,
+      "type": "Strength",
+      "location": "Private studio",
+      "status": "open"
+    },
+    {
+      "id": "b6f1a42c-fcc5-40ab-940d-11df6ecc5b32",
+      "date": "2026-04-29",
+      "time": "18:45",
+      "duration": 60,
+      "type": "Conditioning",
+      "location": "Private studio",
+      "status": "open"
+    },
+    {
+      "id": "ff5db710-f71d-40b8-95d6-7e33947bcca7",
+      "date": "2026-04-30",
+      "time": "18:30",
+      "duration": 60,
+      "type": "Strength",
+      "location": "Private studio",
+      "status": "open"
+    },
+    {
+      "id": "f98362ad-c6b7-4085-81e8-3517a337c284",
+      "date": "2026-05-02",
+      "time": "18:30",
+      "duration": 60,
+      "type": "Strength",
+      "location": "Private studio",
+      "status": "open"
+    },
+    {
+      "id": "e6ade803-9975-4a09-bea9-56579245fa6b",
+      "date": "2026-05-03",
+      "time": "18:30",
+      "duration": 60,
+      "type": "Strength",
+      "location": "Private studio",
+      "status": "open"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "2c80b1c7-16c8-41f2-a948-7767b1723210",
+      "slotId": "7c8672dd-757e-4a83-ade1-ef0fe32b269b",
+      "clientId": "11fd85af-364b-4f25-9d69-2fd789385327",
+      "clientName": "Keith",
+      "clientEmail": "samuelstokes7@gmail.com",
+      "clientPhone": "07368258731",
+      "goals": "",
+      "focus": "",
+      "createdAt": "2026-04-28T03:42:16.705Z"
+    },
+    {
+      "id": "a01f3e87-5a83-4c91-baf7-28bc03459952",
+      "slotId": "6c4a894e-e529-4fba-a887-1bae629440f8",
+      "clientId": "5f024dd4-fafb-43db-87f2-d91837c02aa7",
+      "clientName": "sam",
+      "clientEmail": "2@sss",
+      "clientPhone": "000",
+      "goals": "",
+      "focus": "",
+      "createdAt": "2026-04-28T03:45:59.600Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "11fd85af-364b-4f25-9d69-2fd789385327",
+      "accessCode": "198205",
+      "name": "Keith",
+      "email": "samuelstokes7@gmail.com",
+      "phone": "07368258731",
+      "goals": "",
+      "createdAt": "2026-04-28T03:39:37.991Z",
+      "lastLoginAt": "2026-04-28T03:55:24.656Z"
+    },
+    {
+      "id": "5f024dd4-fafb-43db-87f2-d91837c02aa7",
+      "accessCode": "0408",
+      "name": "sam",
+      "email": "2@sss",
+      "phone": "000",
+      "goals": "",
+      "createdAt": "2026-04-28T03:44:22.700Z",
+      "lastLoginAt": "2026-04-28T03:47:54.891Z"
+    }
+  ]
+}
