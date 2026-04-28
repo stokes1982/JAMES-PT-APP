@@ -4,7 +4,7 @@ const crypto = require("node:crypto");
 const { promises: fs } = require("node:fs");
 
 const PORT = Number(process.env.PORT || 3000);
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = "0.0.0.0";
 const ADMIN_PIN = process.env.ADMIN_PIN || "james";
 const SESSION_SECRET = process.env.SESSION_SECRET
   || crypto.createHash("sha256").update(`${ADMIN_PIN}:james-pt-booking`).digest("hex");
@@ -751,6 +751,6 @@ server.on("error", (error) => {
   throw error;
 });
 
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`App running on port ${PORT}`);
+server.listen(PORT, "0.0.0.0", () => {
+  console.log(`James PT booking app running on port ${PORT}`);
 });
